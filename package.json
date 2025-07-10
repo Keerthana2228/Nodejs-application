@@ -3,14 +3,12 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "npm start",
-    "test": "echo \"No tests specified\" && exit 0"
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
-  "keywords": [],
-  "description": "",
   "dependencies": {
     "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
